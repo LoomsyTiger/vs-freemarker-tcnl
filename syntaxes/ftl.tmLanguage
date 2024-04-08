@@ -77,7 +77,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>([&lt;\[](#|@))(\w+((\.\w+)*|(\["\w+"\])*)*)((\s+[^&gt;\]]+)*?)\s*((\/)?([&gt;\]]))</string>
+			<string>([&lt;\[](#|@))(\w+((\.\w+)*|(\["\w+"\])+)*)((\s+[^&gt;\]]+)*?)\s*((\/)?([&gt;\]]))</string>
 			<key>name</key>
 			<string>meta.function.ftl</string>
 		</dict>
@@ -106,7 +106,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>([&lt;\[]\/(#|@))(\w+((\.\w+)*|(\["\w+"\])*)*)\s*([&gt;\]])</string>
+			<string>([&lt;\[]\/(#|@))(\w+((\.\w+)*|(\["\w+"\])+)*)\s*([&gt;\]])</string>
 			<key>name</key>
 			<string>meta.function.ftl</string>
 		</dict>
